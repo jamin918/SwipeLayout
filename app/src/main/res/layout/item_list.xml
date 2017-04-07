@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.jm.swipelayout.SwipeLayout
+    <com.jm.swipe_lib.SwipeLayout
         android:id="@+id/swipelayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        swipe:show_mode="lay_down">
+
         <!--内容区域-->
         <include layout="@layout/layout_content" />
 
         <!--删除区域-->
         <include layout="@layout/layout_delete" />
 
-    </com.jm.swipelayout.SwipeLayout>
+    </com.jm.swipe_lib.SwipeLayout>
 
 </RelativeLayout>

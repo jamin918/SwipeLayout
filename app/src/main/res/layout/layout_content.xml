@@ -4,7 +4,6 @@
     android:layout_height="80dp"
     android:paddingLeft="15dp"
     android:id="@+id/root"
-    android:background="#33666666"
     android:gravity="center_vertical"
     android:orientation="horizontal" >
     

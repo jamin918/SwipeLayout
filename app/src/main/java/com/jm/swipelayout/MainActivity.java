@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.jm.swipe_lib.SwipeLayout;
+import com.jm.swipe_lib.SwipeLayoutManager;
 import com.jm.swipelayout.adapter.CommonAdapter;
 import com.jm.swipelayout.adapter.ViewHolder;
 
